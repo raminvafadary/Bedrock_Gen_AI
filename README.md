@@ -65,6 +65,7 @@ Once you confirm that the app(s) are running, you can begin prototyping.
 
 you can add your own pdf files.
  
+#for deployment need to attach the Bedrock Ploicy Role to the EC2 instance
 
 
 ### Prompt Engineering with LangChain
