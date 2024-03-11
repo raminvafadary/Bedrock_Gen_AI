@@ -28,7 +28,7 @@ openai_api_key = os.getenv('OPENAI_API_KEY')
 #aws set up
 aws_region = 'us-west-2'
 aws_service = 'bedrock'
-aws_cli_profile_name = 'raminllm'
+aws_cli_profile_name = 'raybdr'
 session = boto3.Session(profile_name=aws_cli_profile_name)
 bedrock_client = session.client(service_name='bedrock', region_name=aws_region, endpoint_url='https://bedrock-runtime.'+aws_region+'.amazonaws.com')
 #bedrock_client = boto3.client("bedrock-runtime", region_name=aws_region)
