@@ -32,6 +32,7 @@ aws_cli_profile_name = 'raybdr'
 session = boto3.Session(profile_name=aws_cli_profile_name)
 bedrock_client = session.client(service_name='bedrock', region_name=aws_region, endpoint_url='https://bedrock-runtime.'+aws_region+'.amazonaws.com')
 #bedrock_client = boto3.client("bedrock-runtime", region_name=aws_region)
+#bedrock_runtime = boto3.client(service_name="bedrock-runtime", region_name=aws_region, aws_access_key_id='AKIAZPHR3E6TCB7R35MM', aws_secret_access_key='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',)
 
 
 def initialize_qa_system(pdf_directory):
