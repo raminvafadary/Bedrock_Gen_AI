@@ -21,6 +21,7 @@ For the app, you'll need to have:
     - Boto3 & Botocore: `pip3 install ./backend/boto3-1.26.162-py3-none-any.whl ./backend/botocore-1.29.162-py3-none-any.whl`
     - AWS CLI: [Instructions Here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 3. Install the requirements using the requirements file with `pip3 install -r ./requirements.txt`
+4. If run on AWS Cloud9 attach the IAM role policy to the EC2 server.
 
 
 ## IAM Permission
